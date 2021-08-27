@@ -49,7 +49,7 @@ class OnInvite(commands.Cog):
         if max_uses == 0:
             max_uses = "∞"
             
-        embed=discord.Embed(title=" ", description="➥ created invite", color=0x5AFF25)
+        embed=discord.Embed(title=" ", description="➥ created invite", color=0x00F3FF)
         embed.set_author(name=str(invite.inviter), icon_url=invite.inviter.avatar_url)
         embed.add_field(name="Invite:", value=f"```code: {invite.code}\nchannel: {invite.channel}\nexpires after: {time}\nmax uses: {max_uses}\ntemporary: {str(invite.temporary).lower()}```", inline=False)
         embed.set_footer(text="ID: " + str(invite.inviter.id))
