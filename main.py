@@ -72,7 +72,7 @@ async def on_ready():
     print (f"Discord Version: {discord.__version__}")
     print (f"Bot Version: {version}")
     print ("------------------------------------")
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name =f"invites"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name =f"invites | eit.help"))
 
     print(
         f'{bot.user} is connected to {len(bot.guilds)} guilds\n'
