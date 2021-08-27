@@ -3,8 +3,7 @@ Easily keep track of all Invites on your Server. This is "Easy Invite Tracker".
 
 ## How it works:
 - The bot will create a list with all active invites, updating it automatically. As soon as a user joins it can tell, based on this list, who invited the user and what code the user joined with.
-- By default, this information get's send to the sys channel of a server. You can change the channel with the following command:
->eit.channel [channel-id/channel mention]
+- By default, this information get's send to the sys channel of a server. You can change the channel with the following command: `eit.channel [channel-id/channel mention]`
 
 ## Hosting your own bot:
 - fill in the file [config.json](https://github.com/Tarikazana/EIT/blob/main/config.json) with your token.
