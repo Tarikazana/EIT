@@ -12,4 +12,4 @@ Easily keep track of all Invites on your Server. This is "Easy Invite Tracker".
 `/data` `/server_configs`
 - Have "Privileged Gateway Intents" enabled
 - you may need to change directory names based on where you'll run the bot
-- start the bot by runnung the [main.py](https://github.com/Tarikazana/EIT/blob/main/main.py) file
+- start the bot by running the [main.py](https://github.com/Tarikazana/EIT/blob/main/main.py) file
