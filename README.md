@@ -7,7 +7,7 @@ Easily keep track of all Invites on your Server. This is "Easy Invite Tracker".
 
 ## Hosting your own bot:
 - fill in the file [config.json](https://github.com/Tarikazana/EIT/blob/main/config.json) with your token.
-- Make sure you have python installed (developed in V3.9.6)
+- Make sure you have python installed (developed in V3.9.6) and [discord.py](https://discordpy.readthedocs.io/en/stable/intro.html)
 - Make sure to create following directories in the same Folder as the [main.py](https://github.com/Tarikazana/EIT/blob/main/main.py)
 `/data` `/server_configs`
 - Have "Privileged Gateway Intents" enabled
